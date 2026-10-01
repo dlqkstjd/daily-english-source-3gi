@@ -1,0 +1,22 @@
+# 운영체제와 편집기가 자동으로 만드는 파일
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 임시 파일과 기록
+*.log
+*.tmp
+
+# 비밀 설정 파일
+.env
+.env.*
+!.env.example
+
+# 설치·빌드 과정에서 생길 수 있는 폴더
+node_modules/
+dist/
+
+# ChatGPT Sites 전용 설정
+.openai/
+
